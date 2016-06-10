@@ -1,0 +1,12 @@
+﻿#tasks{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.task{
+	margin: 5px;
+	min-height: 50px;
+	padding: 5px 10px;
+	border-width: 5px;
+	border-style: solid;
+}
