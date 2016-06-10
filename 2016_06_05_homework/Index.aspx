@@ -13,7 +13,6 @@
     <form id="form1" runat="server">
 		<asp:Panel ID="tasks" runat="server">
 			<asp:BulletedList ID="BulletedListTasks" runat="server" BulletStyle="Numbered"></asp:BulletedList>
-			<asp:HyperLink ID="HyperLink1" runat="server">HyperLink</asp:HyperLink>
 		</asp:Panel>
     </form>
 </body>
