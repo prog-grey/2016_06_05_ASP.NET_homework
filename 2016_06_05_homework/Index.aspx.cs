@@ -12,29 +12,28 @@ namespace Testing_WebForms
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
-			Panel panelTask;
-			Label labelTask;
-			HyperLink linkTask;
-			TaskList taskList = new TaskList();
+			Panel panelEntry;
+			Label labelEntry;
+			HyperLink linkEntry;
+			EntryList entryList = new EntryList();
 			int id = 0;
-			foreach(MyTask task in taskList.getTaskList()) 
+			foreach(MyEntry entry in entryList.getEntryList()) 
 			{
-				panelTask = new Panel();
-				labelTask = new Label();
-				linkTask = new HyperLink();
+				panelEntry = new Panel();
+				labelEntry = new Label();
+				linkEntry = new HyperLink();
 
-				panelTask.CssClass = "task";
-				panelTask.Style.Add("border-color", task.Color);
-				linkTask.Text = task.Name;
-				linkTask.NavigateUrl = "/Task.aspx?id=" + id.ToString();
-				labelTask.Text = "<br/>" + task.Description + "<br/>" + task.DateCreate + "<br/>" + task.Color;
-
-				panelTask.Controls.Add(linkTask);
-				panelTask.Controls.Add(labelTask);
-				tasks.Controls.Add(panelTask);
+				panelEntry.CssClass = "entry";
+				panelEntry.Style.Add("border-color", entry.Color);
+				linkEntry.Text = entry.Name;
+				linkEntry.NavigateUrl = "/Entry.aspx?id=" + id.ToString();
+				labelEntry.Text = "<br/>" + entry.Description + "<br/>" + entry.DateCreate.Date.ToShortDateString() + "<br/>" + entry.Color;
+				panelEntry.Controls.Add(linkEntry);
+				panelEntry.Controls.Add(labelEntry);
+				entrys.Controls.Add(panelEntry);
 				id++;
 			}
+
 		}
 	}
 }

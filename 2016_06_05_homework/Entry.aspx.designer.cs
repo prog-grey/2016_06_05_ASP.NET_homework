@@ -10,7 +10,7 @@
 namespace Testing_WebForms {
     
     
-    public partial class Task {
+    public partial class Entry {
         
         /// <summary>
         /// form1 элемент управления.

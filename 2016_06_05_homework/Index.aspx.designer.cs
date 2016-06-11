@@ -22,21 +22,12 @@ namespace Testing_WebForms {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// tasks элемент управления.
+        /// entrys элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel tasks;
-        
-        /// <summary>
-        /// BulletedListTasks элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.BulletedList BulletedListTasks;
+        protected global::System.Web.UI.WebControls.Panel entrys;
     }
 }

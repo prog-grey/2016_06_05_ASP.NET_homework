@@ -1,9 +1,9 @@
-﻿#tasks{
+﻿#entrys{
 	width: 1000px;
 	margin: 0 auto;
 }
 
-.task{
+.entry{
 	margin: 5px;
 	min-height: 50px;
 	padding: 5px 10px;

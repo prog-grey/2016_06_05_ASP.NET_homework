@@ -111,7 +111,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Style\style.css" />
-    <Content Include="Task.aspx" />
+    <Content Include="Entry.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -125,14 +125,14 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Task.cs" />
+    <Compile Include="Models\Entry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Task.aspx.cs">
-      <DependentUpon>Task.aspx</DependentUpon>
+    <Compile Include="Entry.aspx.cs">
+      <DependentUpon>Entry.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Task.aspx.designer.cs">
-      <DependentUpon>Task.aspx</DependentUpon>
+    <Compile Include="Entry.aspx.designer.cs">
+      <DependentUpon>Entry.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
